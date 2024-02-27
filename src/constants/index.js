@@ -300,7 +300,7 @@ const projects = [
       "https://github.com/BSR-Bird-species-recognition/Bird-species-recognition-web",
   },
   {
-    name: "PalWorld Breeding Calculator",
+    name: "Pal World Breeding Calculator",
     description:
       "Many people record breeding results through random combinations. This tool will help people accurately calculate the results of more than 17,000 paru breeding combinations based on game data dumps., This tool can help give all the parent combinations of a specific pal or calculate beeding result of tow pals.",
     tags: [
