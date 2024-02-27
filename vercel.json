@@ -1,0 +1,5 @@
+{
+  "build": {
+    "pre": "npm install --legacy-peer-deps"
+  }
+}
