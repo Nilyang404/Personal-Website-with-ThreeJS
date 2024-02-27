@@ -22,8 +22,8 @@ import {
   carrent,
   jobit,
   tripguide,
+  unsw,
   threejs,
-  dns,
 } from "../assets";
 
 export const navLinks = [
@@ -296,10 +296,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: dns,
+    image: unsw,
     source_code_link:
       "https://github.com/Nilyang404/General-DNS-Resolver-and-Client",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export default { services, technologies, experiences, testimonials, projects };
