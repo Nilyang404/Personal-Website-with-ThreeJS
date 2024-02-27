@@ -88,10 +88,10 @@ const technologies = [
     name: "C#",
     icon: csharp,
   },
-  {
-    name: "C ++",
-    icon: cplus,
-  },
+  // {
+  //   name: "C ++",
+  //   icon: cplus,
+  // },
   // {
   //   name: "HTML 5",
   //   icon: html,
@@ -100,10 +100,10 @@ const technologies = [
   //   name: "CSS 3",
   //   icon: css,
   // },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   // {
   //   name: "TypeScript",
   //   icon: typescript,
@@ -116,10 +116,10 @@ const technologies = [
   //   name: "Tailwind CSS",
   //   icon: tailwind,
   // },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   // {
   //   name: "MongoDB",
   //   icon: mongodb,
@@ -128,18 +128,18 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
   // },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
     name: "Jenkins",
     icon: jenkins,
