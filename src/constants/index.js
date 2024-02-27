@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Works",
   },
   {
     id: "contact",
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AWS Certified Cloud Practitioner",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Game Mod Developer",
     icon: creator,
   },
 ];
@@ -79,10 +79,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -116,11 +112,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Accounting Assistant, Volunteer",
+    company_name: "UNSW",
+    icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - Aug 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +125,16 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Game Mod Developer & Server Operator",
+    company_name: "Don't Starve Together Private Game Server",
+    icon: "https://cdn2.steamgriddb.com/icon/f18e1e190060ee0af7d043f41d1f28df.png",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2017 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Established and operated a non-profit private game server for over 6 years, catering to a community of more than 2,000 users.",
+      "Led the organization and development of game mods for 'Don't Starve Together' using Lua, incorporating advanced UI and animation design techniques. Key projects included implementing economic system, shop, serverload balancing, and enhancing creature AI. ",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Attracted over 100,000 subscribers on Steam and WeGame Workshop, demonstrating significant impact and engagement within the gaming community.",
     ],
   },
 ];
@@ -198,9 +168,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dev OverFlow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Stack Overflow clone, Web-based platform that allows users to search, read, publish and answer progaramming question, providing a convenient and efficient way to solve programming problems.",
     tags: [
       {
         name: "react",
@@ -211,54 +181,123 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "fullstack",
         color: "pink-text-gradient",
       },
+      {
+        name: "node.js",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "./src/assets/devoverflow.png",
+    source_code_link:
+      "https://github.com/Nilyang404/stack_overflow_replica_nextjs",
   },
   {
-    name: "Job IT",
+    name: "Game Mods of Don't Starve Together",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A collection of mods developed and released while running my private game server, including economic system, shop, server load balancing, and enhancing creature AI. I never expected them to be so popular and get over 100,000 subscriptions.",
     tags: [
       {
-        name: "react",
+        name: "Don't Starve Mod Tools",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "lua",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Spriter",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "./src/assets/dst.gif",
+    source_code_link:
+      "https://steamcommunity.com/id/yougotmenow/myworkshopfiles/?appid=322330",
   },
   {
-    name: "Trip Guide",
+    name: "Large Scale Visual WiFi Analyzer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Solution for collecting and analyzing WiFi signals in large public areas. Suitable for public areas such as shopping malls, schools, gymnasiums, etc. Users only need to hold a mobile device equipped with this tool to collect WiFi signals in the area, and the tool will automatically analyze and visualize the collected data.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "GIS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "data analysis",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "./src/assets/heatmap.png",
+    source_code_link:
+      "https://github.com/Nilyang404/Large-Scale-Visual-WiFi-Analyzer",
+  },
+  {
+    name: "Bird Species Recognition Web App",
+    description:
+      "A Deep Learning-based bird identification application, attained a 98% accuracy rate across more than 300 bird species, providing both a web version and a mobile WeChat mini-program version to enhance user accessibility. Built with Django and Bootstrap and jQuery. If you want to know the name and information of the bird outside your window, try it.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "deep learning",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "./src/assets/bird.png",
+    source_code_link:
+      "https://github.com/BSR-Bird-species-recognition/Bird-species-recognition-web",
+  },
+  {
+    name: "PalWorld Breeding Calculator",
+    description:
+      "Many people record breeding results through random combinations. This tool will help people accurately calculate the results of more than 17,000 paru breeding combinations based on game data dumps., This tool can help give all the parent combinations of a specific pal or calculate beeding result of tow pals.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "game tool",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "./src/assets/palword.png",
+    source_code_link:
+      "https://github.com/Nilyang404/PalWorld-Breeding-Calculator",
+  },
+  {
+    name: "General DNS Resolver and Client",
+    description:
+      "The DNS resolver is implemented in accordance with IEEE standards. It is able to accept, parse and respond to multiple types of DNS queries from clients. The client can send query requests to any DNS server and receive, parse, and display responses.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DNS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "UDP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "./src/assets/dns.png",
+    source_code_link:
+      "https://github.com/Nilyang404/General-DNS-Resolver-and-Client",
   },
 ];
 
