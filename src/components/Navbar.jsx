@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src={"/src/assets/neil-logo.png"}
+            src={"../assets/neil-logo.png"}
             alt="logo"
             className="w-9 h-9 object-contain"
           />
