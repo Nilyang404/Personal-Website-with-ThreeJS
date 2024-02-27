@@ -190,7 +190,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "./src/assets/devoverflow.png",
+    image: "../assets/devoverflow.png",
     source_code_link:
       "https://github.com/Nilyang404/stack_overflow_replica_nextjs",
   },
@@ -212,7 +212,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./src/assets/dst.gif",
+    image: "../assets/dst.gif",
     source_code_link:
       "https://steamcommunity.com/id/yougotmenow/myworkshopfiles/?appid=322330",
   },
@@ -234,7 +234,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./src/assets/heatmap.png",
+    image: "../assets/heatmap.png",
     source_code_link:
       "https://github.com/Nilyang404/Large-Scale-Visual-WiFi-Analyzer",
   },
@@ -256,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./src/assets/bird.png",
+    image: "../assets/bird.png",
     source_code_link:
       "https://github.com/BSR-Bird-species-recognition/Bird-species-recognition-web",
   },
@@ -274,7 +274,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./src/assets/palword.png",
+    image: "../assets/palword.png",
     source_code_link:
       "https://github.com/Nilyang404/PalWorld-Breeding-Calculator",
   },
