@@ -26,7 +26,10 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div
+          className="relative w-full h-[230px] cursor-pointer"
+          onClick={() => window.open(source_code_link, "_blank")}
+        >
           <img
             src={image}
             alt="project_image"
