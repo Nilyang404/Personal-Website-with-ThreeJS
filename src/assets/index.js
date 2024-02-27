@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import neil_logo from "./neil_logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,6 +30,12 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import devoverflow from "./devoverflow.png";
+import dst from "./dst.gif";
+import heatmap from "./heatmap.png";
+import bird from "./bird.png";
+import palworld from "./palworld.png";
+import dns from "./dns.png";
 
 export {
   logo,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  dns,
+  palworld,
+  bird,
+  heatmap,
+  dst,
+  devoverflow,
+  neil_logo,
 };

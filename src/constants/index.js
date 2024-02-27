@@ -22,8 +22,13 @@ import {
   carrent,
   jobit,
   tripguide,
-  unsw,
   threejs,
+  dns,
+  palworld,
+  bird,
+  heatmap,
+  dst,
+  devoverflow,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +39,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Works",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -190,7 +199,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: "../assets/devoverflow.png",
+    image: devoverflow,
     source_code_link:
       "https://github.com/Nilyang404/stack_overflow_replica_nextjs",
   },
@@ -212,7 +221,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/dst.gif",
+    image: dst,
     source_code_link:
       "https://steamcommunity.com/id/yougotmenow/myworkshopfiles/?appid=322330",
   },
@@ -234,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/heatmap.png",
+    image: heatmap,
     source_code_link:
       "https://github.com/Nilyang404/Large-Scale-Visual-WiFi-Analyzer",
   },
@@ -256,7 +265,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/bird.png",
+    image: bird,
     source_code_link:
       "https://github.com/BSR-Bird-species-recognition/Bird-species-recognition-web",
   },
@@ -274,7 +283,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/palword.png",
+    image: palworld,
     source_code_link:
       "https://github.com/Nilyang404/PalWorld-Breeding-Calculator",
   },
@@ -296,10 +305,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: unsw,
+    image: dns,
     source_code_link:
       "https://github.com/Nilyang404/General-DNS-Resolver-and-Client",
   },
 ];
 
-export default { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };
