@@ -71,7 +71,16 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        <p className={`${styles.sectionSubText} `}>
+          <span className={`${styles.heroSubText} mt-2 text-[#c95964]`}>
+            <span className=" text-[#c95964]">Not </span>
+          </span>{" "}
+          everyone has a
+          <span className={`${styles.heroSubText} mt-2 text-[#c95964]`}>
+            <span className=" text-[#c95964]"> 100,000+ </span>
+          </span>{" "}
+          subscribers project in their portfolio
+        </p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 

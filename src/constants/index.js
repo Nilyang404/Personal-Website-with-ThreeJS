@@ -29,6 +29,12 @@ import {
   heatmap,
   dst,
   devoverflow,
+  jenkins,
+  java,
+  python,
+  csharp,
+  cplus,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -71,59 +77,83 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "C ++",
+    icon: cplus,
+  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "AWS",
+    icon: aws,
   },
 ];
 
 const experiences = [
   {
     title: "Accounting Assistant, Volunteer",
-    company_name: "UNSW",
+    company_name: "UNSW ",
     icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
     iconBg: "#383E56",
     date: "May 2023 - Aug 2023",
@@ -180,7 +210,7 @@ const projects = [
   {
     name: "Dev OverFlow",
     description:
-      "A Stack Overflow clone, Web-based platform that allows users to search, read, publish and answer progaramming question, providing a convenient and efficient way to solve programming problems.",
+      "A Stack Overflow clone, Web-based platform that allows users to search, read, publish and answer progaramming question, providing a convenient and efficient way to solve programming problems. Planned features indlude Badge system, Integrating AI generated answers, recommendation system ",
     tags: [
       {
         name: "react",

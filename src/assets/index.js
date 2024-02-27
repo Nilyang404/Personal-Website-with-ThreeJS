@@ -37,6 +37,13 @@ import bird from "./bird.png";
 import palworld from "./palworld.png";
 import dns from "./dns.png";
 
+import jenkins from "./jenkins.png";
+import java from "./java.png";
+import python from "./python.png";
+import csharp from "./csharp.png";
+import cplus from "./c++.png";
+import aws from "./aws.png";
+
 export {
   logo,
   backend,
@@ -73,4 +80,10 @@ export {
   dst,
   devoverflow,
   neil_logo,
+  jenkins,
+  java,
+  python,
+  csharp,
+  cplus,
+  aws,
 };
