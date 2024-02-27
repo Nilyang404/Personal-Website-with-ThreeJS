@@ -318,7 +318,7 @@ const projects = [
       "https://github.com/Nilyang404/PalWorld-Breeding-Calculator",
   },
   {
-    name: "General DNS Resolver and Client",
+    name: "Universal DNS Resolver and Client",
     description:
       "The DNS resolver is implemented in accordance with IEEE standards. It is able to accept, parse and respond to multiple types of DNS queries from clients. The client can send query requests to any DNS server and receive, parse, and display responses.",
     tags: [
@@ -337,7 +337,7 @@ const projects = [
     ],
     image: dns,
     source_code_link:
-      "https://github.com/Nilyang404/General-DNS-Resolver-and-Client",
+      "https://github.com/Nilyang404/Universal-DNS-Resolver-and-Client",
   },
 ];
 
