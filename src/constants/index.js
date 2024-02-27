@@ -88,10 +88,10 @@ const technologies = [
     name: "C#",
     icon: csharp,
   },
-  // {
-  //   name: "C ++",
-  //   icon: cplus,
-  // },
+  {
+    name: "C ++",
+    icon: cplus,
+  },
   // {
   //   name: "HTML 5",
   //   icon: html,
@@ -128,18 +128,18 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
   {
     name: "Jenkins",
     icon: jenkins,
