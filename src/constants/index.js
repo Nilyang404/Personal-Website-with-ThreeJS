@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  dns,
 } from "../assets";
 
 export const navLinks = [
@@ -295,7 +296,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "./src/assets/dns.png",
+    image: dns,
     source_code_link:
       "https://github.com/Nilyang404/General-DNS-Resolver-and-Client",
   },
