@@ -153,15 +153,13 @@ const technologies = [
 const experiences = [
   {
     title: "Accounting Assistant, Volunteer",
-    company_name: "UNSW ",
+    company_name: "UNSW Financial Control and Compliance Department",
     icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
     iconBg: "#383E56",
     date: "May 2023 - Aug 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acted as a leader for an 8-person group, organizing regular meetings and reports, facilitating communication with department supervisors, and providing support to colleagues in resolving work-related challenges. ",
+      "Collaborated with a team to review over 160 research contracts between the university and research sponsors, ensuring compliance with the Australian Accounting Standard AASB 15 through detailed compliance reporting.  ",
     ],
   },
   {
@@ -236,7 +234,7 @@ const projects = [
   {
     name: "Game Mods of Don't Starve Together",
     description:
-      "A collection of mods developed and released while running my private game server, including economic system, shop, server load balancing, and enhancing creature AI. I never expected them to be so popular and get over 100,000 subscriptions.",
+      "A collection of mods developed and released while running my private game server, including economic system, shop, server load balancing, and enhancing creature AI. They are very popular in the community and have gained over 100,000 subscriptions",
     tags: [
       {
         name: "Don't Starve Mod Tools",
@@ -302,7 +300,7 @@ const projects = [
   {
     name: "Pal World Breeding Calculator",
     description:
-      "Many people record breeding results through random combinations. This tool will help people accurately calculate the results of more than 17,000 paru breeding combinations based on game data dumps., This tool can help give all the parent combinations of a specific pal or calculate beeding result of tow pals.",
+      "A breeding calculator will GUI. Many people record breeding results through random combinations. This tool will help people accurately calculate the results of more than 17,000 pal breeding combinations based on game data dumps., This tool can help give all the parent combinations of a specific pal or calculate beeding result of tow pals.",
     tags: [
       {
         name: "python",
