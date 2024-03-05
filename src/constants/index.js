@@ -35,6 +35,7 @@ import {
   csharp,
   cplus,
   aws,
+  boomerang,
 } from "../assets";
 
 export const navLinks = [
@@ -152,14 +153,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Accounting Assistant, Volunteer",
-    company_name: "UNSW Financial Control and Compliance Department",
-    icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
-    iconBg: "#383E56",
-    date: "May 2023 - Aug 2023",
+    title: "Junior Software Developer",
+    company_name: "Boomerang Studios",
+    icon: boomerang,
+    iconBg: "#E6DEDD",
+    date: "Mar 2024 - Present",
     points: [
-      "Acted as a leader for an 8-person group, organizing regular meetings and reports, facilitating communication with department supervisors, and providing support to colleagues in resolving work-related challenges. ",
-      "Collaborated with a team to review over 160 research contracts between the university and research sponsors, ensuring compliance with the Australian Accounting Standard AASB 15 through detailed compliance reporting.  ",
+      "Built front-end game interfaces and Back-end program using JavaScript and Java",
+      "Developed multiple tools on AWS for game data analysis and management",
+      "Assisted in designing mathematical models for products and maintained product documentation to ensure completeness and accuracy.",
     ],
   },
   {
@@ -173,6 +175,17 @@ const experiences = [
       "Led the organization and development of game mods for 'Don't Starve Together' using Lua, incorporating advanced UI and animation design techniques. Key projects included implementing economic system, shop, serverload balancing, and enhancing creature AI. ",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Attracted over 100,000 subscribers on Steam and WeGame Workshop, demonstrating significant impact and engagement within the gaming community.",
+    ],
+  },
+  {
+    title: "Accounting Assistant, Volunteer",
+    company_name: "UNSW Financial Control and Compliance Department",
+    icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
+    iconBg: "#383E56",
+    date: "May 2023 - Aug 2023",
+    points: [
+      "Acted as a leader for an 8-person group, organizing regular meetings and reports, facilitating communication with department supervisors, and providing support to colleagues in resolving work-related challenges. ",
+      "Collaborated with a team to review over 160 research contracts between the university and research sponsors, ensuring compliance with the Australian Accounting Standard AASB 15 through detailed compliance reporting.  ",
     ],
   },
 ];

@@ -43,6 +43,7 @@ import python from "./python.png";
 import csharp from "./csharp.png";
 import cplus from "./c++.png";
 import aws from "./aws.png";
+import boomerang from "./boomerang.png";
 
 export {
   logo,
@@ -86,4 +87,5 @@ export {
   csharp,
   cplus,
   aws,
+  boomerang,
 };
