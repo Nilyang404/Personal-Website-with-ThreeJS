@@ -180,7 +180,7 @@ const experiences = [
   {
     title: "Accounting Assistant, Volunteer",
     company_name: "UNSW Financial Control and Compliance Department",
-    icon: "https://media.licdn.com/dms/image/D560BAQFqOpEPsH5vsQ/company-logo_200_200/0/1708045452261/unsw_logo?e=1717027200&v=beta&t=YPSIXs2Rf4ASpMDBXqjLPcdjRA3SedypzNURDtJqZ14",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdiErIcTKlsb-Y59itvJJZe9Kd_nMG-8WOzg&s",
     iconBg: "#383E56",
     date: "May 2023 - Aug 2023",
     points: [
